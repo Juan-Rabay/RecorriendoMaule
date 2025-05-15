@@ -24,5 +24,9 @@ flutter:
 
   assets:
     - assets/images/logo.png
+    - assets/images/siete_tazas.jpg
+    - assets/images/laguna_maule.jpg
+    - assets/images/arte_rupestre.jpg
+    - assets/images/ruta_vino.jpg
 
 

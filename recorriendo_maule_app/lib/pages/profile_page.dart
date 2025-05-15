@@ -15,6 +15,8 @@ class ProfilePage extends StatelessWidget {
             Text("Nombre: Charles du Bronx"),
             Text("Zona: Talca"),
             Text("Intereses: Historia, Naturaleza, Cultura"),
+            Text("nombre Usuario: OIluminado_Charles"),
+            Text("e-mail: charlesdubronx_edoBrasil@hotmail.com"),
           ],
         ),
       ),

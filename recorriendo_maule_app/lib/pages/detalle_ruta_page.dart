@@ -10,15 +10,22 @@ class DetalleRutaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(ruta.nombre)),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Comuna: ${ruta.comuna}", style: const TextStyle(fontSize: 18)),
-            Text("Tipo: ${ruta.tipo}", style: const TextStyle(fontSize: 18)),
-            const SizedBox(height: 10),
-            Text(ruta.descripcion),
+            Image.asset(ruta.imagenAsset),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Comuna: ${ruta.comuna}", style: const TextStyle(fontSize: 18)),
+                  Text("Tipo: ${ruta.tipo}", style: const TextStyle(fontSize: 18)),
+                  const SizedBox(height: 10),
+                  Text(ruta.descripcion),
+                ],
+              ),
+            ),
           ],
         ),
       ),
