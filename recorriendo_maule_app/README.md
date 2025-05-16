@@ -31,5 +31,7 @@ Diseñar y desarrollar una maqueta funcional que permita a los usuarios:
 - Navegación con `MaterialPageRoute`
 - Widgets: `Card`, `ListTile`, `Image.asset`, `AppBar`, `Drawer`
 
-## Link presentación
+## Link 
+ - ppt + Diagrama: https://drive.google.com/drive/folders/18tf5EBAl0mQnYL7Tdjm3tmdqvoT45Mim?usp=drive_link
+ - Video en Youtube: https://youtu.be/6amAdsLOShI
 

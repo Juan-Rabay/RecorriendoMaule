@@ -26,16 +26,16 @@ class AboutPage extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                '👤 Autor:',
+                'Autor:',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text('Juan Rabay de Castro'),
               Text('Institución: Universidad de Talca'),
-              Text('LircayHub Challenge for Startups'),
+              Text('LircayHub'),
 
               SizedBox(height: 16),
               Text(
-                '📦 Versión:',
+                'Versión:',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text('1.0.0'),
